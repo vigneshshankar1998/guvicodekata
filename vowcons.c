@@ -31,19 +31,19 @@ int main()
  
 int main()
 {
-  char ch;
+  char cr;
  
   printf("Input a character\n");
-  scanf("%c", &ch);
+  scanf("%c", &cr);
  
-  if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' &&ch <= 'Z')) {
-    if (ch=='a' || ch=='A' || ch=='e' || ch=='E' || ch=='i' || ch=='I' || ch=='o' || ch=='O' || ch== 'u' || ch=='U')
-      printf("%c is a vowel.\n", ch);
+  if ((cr >= 'a' && cr <= 'z') || (cr >= 'A' &&cr <= 'Z')) {
+    if (cr=='a' || cr=='A' || cr=='e' || cr=='E' || cr=='i' || cr=='I' || cr=='o' || cr=='O' || cr== 'u' || cr=='U')
+      printf("%c is a vowel.\n", cr);
     else
-      printf("%c is a consonant.\n", ch);
+      printf("%c is a consonant.\n", cr);
   }
   else
-    printf("%c is neither a vowel nor a consonant.\n", ch);
+    printf("%c is neither a vowel nor a consonant.\n", cr);
  
   return 0;
 }
