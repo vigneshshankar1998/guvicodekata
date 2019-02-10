@@ -2,8 +2,9 @@ public class LeapYear {
 
     public static void main(String[] args) {
 
-        int;
+        int year;
         boolean leap;
+        Scanner in = new Scanner(System.in);
 
         if(year % 4 == 0)
         {
