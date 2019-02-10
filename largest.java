@@ -5,7 +5,6 @@ class largest
   public static void main(String args[])
   {
     int a,b,c;
-    System.out.println("Enter three integers");
     Scanner in = new Scanner(System.in);
  
     a = in.nextInt();
