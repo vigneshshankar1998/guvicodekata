@@ -2,11 +2,11 @@ public class alphabet {
 
     public static void main(String[] args) {
 
-        char c ;
+        char ch ;
 
-        if( (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
-            System.out.println(c + " is an alphabet.");
+        if( (ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z'))
+            System.out.println(ch + " is an alphabet.");
         else
-            System.out.println(c + " is not an alphabet.");
+            System.out.println(ch + " is not an alphabet.");
     }
 }
