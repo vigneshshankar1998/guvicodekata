@@ -13,11 +13,11 @@ class largest
     c = in.nextInt();
  
     if (a > b && a > c)
-      System.out.println("First number is largest.");
+      System.out.println(a);
     else if (b > a && b > c)
-      System.out.println("Second number is largest.");
+      System.out.println(b);
     else if (c > a && c > b)
-      System.out.println("Third number is largest.");
+      System.out.println(c);
     else
       System.out.println("The numbers are not distinct.");
   }
