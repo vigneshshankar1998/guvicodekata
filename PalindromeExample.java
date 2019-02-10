@@ -3,7 +3,7 @@ class PalindromeExample{
   int r,sum=0,temp;    
   int q;//It is the number variable to be checked for palindrome  
   
-  temp=q;    
+  temp=n;    
   while(q>0){    
    r=q%10;  //getting remainder  
    sum=(sum*10)+r;    
