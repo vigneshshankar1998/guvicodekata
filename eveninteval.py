@@ -1,6 +1,8 @@
 # Python program to print Even Numbers in given range 
 
-start, end 
+
+start = int(input( )) 
+end = int(input( )
 
 # iterating each number in list 
 for n in range(start + 1, end + 1): 
