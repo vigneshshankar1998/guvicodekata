@@ -3,12 +3,12 @@ class PalindromeExample{
   int r,sum=0,temp;    
   int q;//It is the number variable to be checked for palindrome  
   
-  temp=n;    
-  while(q>0){    
-   r=q%10;  //getting remainder  
+   temp=n;    
+  while(n>0){    
+   r=n%10;  //getting remainder  
    sum=(sum*10)+r;    
-   q=q/10;    
-  }    
+   n=n/10;    
+  }   
   if(temp==sum)    
    System.out.println("YES");    
   else    
