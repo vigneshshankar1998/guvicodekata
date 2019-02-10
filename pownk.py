@@ -11,4 +11,4 @@ def power(n,k):
 	else: 
 		return (n * power(n, int(k / 2)) *
 				power(n, int(k / 2))) 
- print(power(x, y)) 
+ print(power(n,k)) 
