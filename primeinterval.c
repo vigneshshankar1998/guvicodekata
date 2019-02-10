@@ -4,7 +4,7 @@ int main()
     int l, h, i, flag;
     scanf("%d %d", &l, &h);
 
-    printf( l, h);
+ printf("Prime numbers between %d and %d are: ", l,h);
 
     while (l < h)
     {
