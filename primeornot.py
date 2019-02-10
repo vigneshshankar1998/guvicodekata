@@ -9,8 +9,8 @@ if n > 1:
    # check for factors
    for i in range(2,n):
        if (n % i) == 0:
-           print("NO")
+           print("no")
            break
    else:
-       print("YES")
+       print("yes")
        
