@@ -16,7 +16,7 @@ int main()
     if(result == n)
         printf("yes");
     else
-        printf("n");
+        printf("no");
 
     return 0;
 }
