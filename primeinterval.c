@@ -20,9 +20,10 @@ int main()
         }
 
         if (flag == 0)
+            ++l;
             printf("%d ", l);
 
-        ++l;
+        
     }
 
     return 0;
