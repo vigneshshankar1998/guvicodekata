@@ -3,7 +3,7 @@ public class LeapYear {
     public static void main(String[] args) {
 
         int;
-        boolean leap = false;
+        boolean leap;
 
         if(year % 4 == 0)
         {
