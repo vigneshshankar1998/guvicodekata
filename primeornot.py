@@ -2,7 +2,7 @@
 
 
 # take input from the user
-# n = int(input( ))
+n = int(input( ))
 
 # prime numbers are greater than 1
 if n > 1:
