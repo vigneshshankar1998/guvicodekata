@@ -3,7 +3,7 @@ using namespace std;
 int main() {
     int i, q;
     cin >> q;
-    for (i=0; i<n; i++) {
+    for (i=0; i<q; i++) {
         cout << "hello \n";
     }
     return 0;
